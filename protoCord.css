@@ -1,0 +1,717 @@
+
+/* User Role List Category Group Labels */
+.members__9f47b .membersGroup__85843 {
+	width: calc(200px - 16px);
+	height: 30px;
+	margin: 0px 0px 6px 8px;
+	padding: 10px 0px 0px 0px;
+	letter-spacing: .01em;
+	text-align: center;
+	color: #7F7F7F;
+	border-color: #7F7F7F;
+	border-bottom: 1px solid currentcolor;
+	/* backface-visibility: hidden; */
+}
+
+
+
+/***************************************** Settings Row Icons ****************************************/
+
+/* Padding and Icons */
+.standardSidebarView__1129a .sidebarRegionScroller__1fa7e [class*="item"] {
+	padding-left: 38px;
+}
+.standardSidebarView__1129a .sidebarRegionScroller__1fa7e [class*="item"]::before {
+	content: "";
+	position: absolute;
+	margin-top: -2px;
+	width: 24px;
+	height: 24px;
+	left: 6px;
+	opacity: .4;
+	transition: 160ms;
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Language.svg")
+}
+.sidebarRegionScroller__1fa7e .item__48dda .dot-2s_oHI {
+	background-color: var(--bd-blue);
+}
+
+/* Button Hover & Animations */
+.standardSidebarView__1129a .sidebar__9e3e2 .side_b4b3f6 [class*="item"] {
+	border-radius: 4px 0px 0px 4px;
+	transform: translateZ(0);
+	transition: 220ms;
+}
+.standardSidebarView__1129a .sidebar__9e3e2 .side_b4b3f6 .themed_b957e8.selected__5711d.item__48dda {
+	background-color: #191919;
+	transform: translateX(8px);
+	transition: 160ms;
+}
+.standardSidebarView__1129a .sidebar__9e3e2 .side_b4b3f6 .item__48dda:hover {
+	background-color: #141414;
+	transform: translateX(8px);
+	transition: 160ms;
+}
+.standardSidebarView__1129a .sidebarRegionScroller__1fa7e [class*="item"]:hover::before {
+	opacity: .7;
+}
+.standardSidebarView__1129a .sidebarRegionScroller__1fa7e [class*="item"][class*="selected"]::before {
+	opacity: 1;
+}
+
+/* Nitro, Server Boost & Subscriptions Selected Color Fix */
+.standardSidebarView__1129a .side_b4b3f6 .selectedBackground_d847da,
+.standardSidebarView__1129a .side_b4b3f6 .serverBoostTabItem_b19426[aria-selected=true] {
+	background-color: #191919 !important;
+	z-index: 0;
+}
+.standardSidebarView__1129a .side_b4b3f6 .premiumLabel_f2cd55 svg,
+.standardSidebarView__1129a .side_b4b3f6 .serverBoostTabItem_b19426 .icon__11372 {
+	display: none;
+}
+
+/* New Nitro & Beta Badge */
+.standardSidebarView__1129a .sidebar__9e3e2 .side_b4b3f6 .themed_b957e8.item__48dda .tabBarItemContainer_d74773 .base__92a12 {
+	margin-right: -5px;
+}
+.standardSidebarView__1129a .sidebar__9e3e2 .side_b4b3f6 [class*="item"]:hover .tabBarItemContainer_d74773 .base__92a12 {
+	border-radius: 8px 0px 0px 8px;
+}
+
+
+
+/* User Settings Row Icons */
+/* .sidebar__9e3e2:has(.socialLinks_c1fc99) .side_b4b3f6 .item__48dda:nth-child(2)::before */
+/* .sidebar__9e3e2:has(:not(.socialLinks_c1fc99)) */
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-label="My Account"]::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="my-account-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/User_Management.svg");
+}
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-label="Profiles"]::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="profile-customization-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Styles.svg");
+}
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(4)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="privacy-&-safety-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Security.svg");
+}
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(5)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-label="Family Centre" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Group.svg");
+}
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(6)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="authorized-apps-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Apps.svg");
+}
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(7)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="sessions-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Screen.svg");
+}
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(8)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="passport-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Connection.svg");
+}
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(9)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="friend-requests-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Group.svg");
+}
+
+/* Discord Nitro */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda[aria-label="Nitro" i]::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="discord-nitro-tab" i]::before {
+	background-image: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Discord/Nitro.svg");
+	transform: scale(0.57);
+	left: -3px;
+	top: 2px;
+	width: 42px;
+	height: 32px;
+	transition: 0ms;
+	z-index: 2;
+}
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda:hover[aria-controls="discord-nitro-tab" i]::before,
+.standardSidebarView__1129a .side_b4b3f6 .selected__5711d.item__48dda[aria-controls="discord-nitro-tab" i]::before {
+	background-image: url("https://discord.com/assets/24d05f3b46a110e538674edbac0db4cd.svg");
+	transform: scale(1.1);
+	left: 6px;
+	top: 5.5px;
+	width: 24px;
+	height: 20px;
+	transition: 0ms;
+}
+/* Server Boost */
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="nitro-server-boost-tab" i]::before {
+	background-image: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Discord/Boost.svg");
+	filter: grayscale(1) contrast(1) brightness(2);
+}
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda:hover[aria-controls="nitro-server-boost-tab" i]::before,
+.standardSidebarView__1129a .side_b4b3f6 .selected__5711d.item__48dda[aria-controls="nitro-server-boost-tab" i]::before {
+	background-image: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Discord/Boost.svg");
+	filter: grayscale(0) contrast(1) brightness(1);
+}
+/* Subscriptions */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(13)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="subscriptions-tab" i]::before {
+	background: url("https://fonts.gstatic.com/s/i/materialicons/fact_check/v14/24px.svg");
+	filter: invert(1);
+}
+/* Premium */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(14)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="guild-role-subscription-tab" i]::before {
+	background: url("https://fonts.gstatic.com/s/i/materialicons/workspace_premium/v3/24px.svg");
+	filter: invert(1);
+}
+/* Gift Inventory */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(15)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="library-inventory-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Present.svg");
+}
+/* Billing */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(16)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="billing-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Credit.svg");
+}
+
+/* Appearance */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda[aria-label="Appearance" i]::before,
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(19)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="appearance-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Formatting.svg");
+}
+/* Accessibility */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(20)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="accessibility-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Accessibility.svg");
+}
+/* Voice & Video */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(21)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="voice-&-video-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Voice.svg");
+}
+/* Text & Images */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(22)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="text-&-images-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Messages.svg");
+}
+/* Notifications */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(23)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="notifications-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Notification.svg");
+}
+/* Keybinds */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(24)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="keybinds-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Keyboard.svg");
+}
+/* Language */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(25)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="language-tab" i]::before {
+	background: url("https://fonts.gstatic.com/s/i/materialicons/translate/v16/24px.svg");
+	filter: invert(1);
+}
+/* Windows Settings */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(26)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="windows-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Windows.svg");
+	transform: scale(0.81);
+}
+/* Linux Settings */
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="linux-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Diamond.svg");
+}
+/* Streamer Mode */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(27)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="streamer-mode-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Camera.svg");
+}
+/* Advanced */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(28)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="advanced-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Memory_Board.svg");
+}
+
+/* OpenAsar */
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[id="openasar-item" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Memory_Board.svg");
+}
+
+/* Vencord Icons */
+.vc-settings.item__48dda.themed_b957e8::before {
+	background: url("https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f431.svg") !important;
+	transform: scale(0.9);
+	filter: grayscale(1) brightness(1.25);
+}
+.vc-plugins.item__48dda.themed_b957e8::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Plugins.svg") !important;
+}
+.vc-themes.item__48dda.themed_b957e8::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Theme.svg") !important;
+}
+.vc-updater.item__48dda.themed_b957e8::before {
+	background: url("https://fonts.gstatic.com/s/i/materialicons/system_update_alt/v13/24px.svg") !important;
+	filter: invert(1);
+}
+.vc-cloud.item__48dda.themed_b957e8::before {
+	background: url("https://fonts.gstatic.com/s/i/materialicons/wb_cloudy/v12/24px.svg") !important;
+	filter: invert(1);
+}
+.vc-backup-restore.item__48dda.themed_b957e8::before {
+	background: url("https://fonts.gstatic.com/s/i/materialicons/backup/v15/24px.svg") !important;
+	filter: invert(1);
+}
+/* Vencord Fix Missing/Broken Icons */
+.vc-backup-restore.item__48dda+.separator_fdbcfd+.header_f72511+.item__48dda::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Security.svg");
+}
+.vc-backup-restore.item__48dda+.separator_fdbcfd+.header_f72511+.item__48dda+.item__48dda::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Games.svg");
+}
+.vc-backup-restore.item__48dda+.separator_fdbcfd+.header_f72511+.item__48dda+.item__48dda+.item__48dda::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Overlay.svg");
+	transform: scale(1);
+	left: 6px;
+	top: 6px;
+	width: 24px;
+	height: 24px;
+}
+.vc-backup-restore.item__48dda+.separator_fdbcfd+.header_f72511+.item__48dda+.item__48dda+.item__48dda+.separator_fdbcfd+.item__48dda::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Logs.svg");
+}
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-label="Merch" i]+.item__48dda::before {
+	background-image: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Discord/Hypesquad.svg");
+	filter: grayscale(1) brightness(2);
+	transform: scale(0.62);
+	left: 2px;
+	top: 2px;
+	width: 34px;
+	height: 34px;
+}
+
+/* Activity Privacy */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(31)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="activity-privacy-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Security.svg");
+}
+/* Game Activity (Registered Games) */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(32)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="game-activity-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Games.svg");
+}
+/* Game Overlay */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(33)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="overlay-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Overlay.svg");
+}
+
+/* BetterDiscord Icons */
+.standardSidebarView__1129a .side_b4b3f6 .bd-settings-tab.item__48dda::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/BetterDiscord.svg");
+}
+.standardSidebarView__1129a .side_b4b3f6 .bd-updates-tab.item__48dda::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Library.svg");
+}
+.standardSidebarView__1129a .side_b4b3f6 .bd-emotes-tab.item__48dda::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Emoji.svg");
+}
+.standardSidebarView__1129a .side_b4b3f6 .bd-customcss-tab.item__48dda::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Code.svg");
+}
+.standardSidebarView__1129a .side_b4b3f6 .bd-plugins-tab.item__48dda::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Plugins.svg");
+}
+.standardSidebarView__1129a .side_b4b3f6 .bd-themes-tab.item__48dda::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Theme.svg");
+}
+/* Plugin Repo */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="pluginrepo-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Plugins.svg");
+}
+/* Theme Repo */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="themerepo-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Theme.svg");
+}
+
+/* What's New (ChangeLog) */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(41)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="changelog-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Logs.svg");
+}
+/* HypeSquad */
+.standardSidebarView__1129a [aria-label="User Settings"].side_b4b3f6 .item__48dda:nth-child(42)::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="hypesquad-online-tab" i]::before {
+	background-image: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Discord/Hypesquad.svg");
+	filter: grayscale(1) brightness(2);
+	transform: scale(0.62);
+	left: 2px;
+	top: 2px;
+	width: 34px;
+	height: 34px;
+}
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda:hover[aria-controls="hypesquad-online-tab" i]::before,
+.standardSidebarView__1129a .side_b4b3f6 .selected__5711d.item__48dda[aria-controls="hypesquad-online-tab" i]::before {
+	background-image: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Discord/Hypesquad.svg");
+	filter: grayscale(0) brightness(1);
+}
+/* Merch */
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-label="Merch" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Present.svg");
+}
+
+/* Experiments/Developer Icons */
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="experiments-tab" i]::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="developer-options-tab" i]::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="hotspot-options-tab" i]::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="dismissible-content-options-tab" i]::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="payment-flow-modals-tab" i]::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="text-component-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Memory.svg");
+}
+
+/* Log Out */
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-label="Log Out"]::before,
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-controls="logout-tab" i]::before {
+	background-image: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Exit.svg");
+	filter: invert(70%) sepia(100%) saturate(1000%) hue-rotate(-30deg);
+	opacity: .6;
+}
+
+/* Server: Overview Icon */
+.guilds__2b93a+.base__3e6af .sidebarRegionScroller__1fa7e .item__48dda:nth-child(1)::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Overview" i]::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="overview-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Info.svg");
+}
+/* Server: Roles Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Manage Roles" i]::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="roles-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Roles.svg");
+}
+/* Server: Soundboard Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Soundboard" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Voice.svg");
+}
+/* Server: Emojis Icon */
+.sidebarRegionScroller__1fa7e .item__48dda:nth-child(4)::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="emoji-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Emoji.svg");
+}
+/* Server: Stickers Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Stickers" i]::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="stickers-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Sticky_Note.svg");
+}
+/* Server: Widget Icon */
+.sidebarRegionScroller__1fa7e .item__48dda:nth-child(7)::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="widget-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Widgets.svg");
+}
+/* Server: Template Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Server Template" i]::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="guild_templates-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Collection.svg");
+}
+
+
+/* Server: Integrations Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Integrations" i]::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="integrations-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Integrations.svg");
+}
+/* Server: App Directory */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="App Directory" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Widgets.svg");
+}
+
+/* Server Moderation: Safety Setup Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Safety Setup" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Moderation.svg");
+}
+/* Server Moderation: AutoMod Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="AutoMod" i]::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="guild_automod-tab" i]::before {
+	background: url("https://fonts.gstatic.com/s/i/materialicons/fact_check/v14/24px.svg");
+}
+/* Server Moderation: Audit Log Icon */
+.sidebarRegionScroller__1fa7e .item__48dda:nth-child(17)::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Calendar.svg");
+}
+/* Server Moderation: Bans Icon */
+.sidebarRegionScroller__1fa7e .item__48dda:nth-child(18)::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Blocked.svg");
+}
+
+/* Server Community: Overview Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="community-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Info.svg");
+}
+/* Server Community: Overview Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Onboarding"]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Groups.svg");
+}
+/* Server Community: Server Insights Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Server Insights" i]::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="analytics-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Insights.svg");
+}
+/* Server Community: Partner Program Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Partner Program" i]::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="partner-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Discord/Partner.svg");
+	background-repeat: no-repeat;
+	filter: grayscale(1) brightness(2);
+	transform: scale(0.62);
+	left: 0px;
+	top: 2px;
+	width: 42px;
+	height: 32px;
+}
+/* Server Community: Discovery Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Enable Discovery"]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Explore.svg");
+}
+
+/* Server Community: Enable Community Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Enable Community" i]::before{
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Explore.svg");
+}
+/* Server Community: Welcome Screen Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Welcome Screen" i]::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="community_welcome-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/User_Registration.svg");
+}
+
+/* Server Monetisation: Server Subscriptions */
+.standardSidebarView__1129a .side_b4b3f6 .item__48dda[aria-label="Server Subscriptions" i]::before {
+	background: url("https://fonts.gstatic.com/s/i/materialicons/fact_check/v14/24px.svg");
+	filter: invert(1);
+}
+
+/* Server: Boost Status Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Server Boost Status" i]::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="guild_premium-tab" i]::before {
+	background-image: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Discord/Boost.svg");
+	filter: grayscale(1) contrast(1) brightness(2);
+}
+.standardSidebarView__1129a .item__48dda:hover[aria-controls="guild_premium-tab" i]::before,
+.standardSidebarView__1129a .selected__5711d.item__48dda[aria-controls="guild_premium-tab" i]::before {
+	background-image: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Discord/Boost.svg");
+	filter: grayscale(0) contrast(1) brightness(1);
+}
+
+/* Server: Members Icon */
+.sidebarRegionScroller__1fa7e .item__48dda.serverBoostTabItem_b19426+.separator_fdbcfd+.header_f72511+.item__48dda::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="members-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Group.svg");
+}
+/* Server: Invites Icon */
+.sidebarRegionScroller__1fa7e .item__48dda.serverBoostTabItem_b19426+.separator_fdbcfd+.header_f72511+.item__48dda+.item__48dda::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Overview" i]+.item__48dda+.item__48dda::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="instant_invites-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Mail.svg");
+}
+
+/* Server Channel: Permissions Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Overview" i]+.item__48dda::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="permissions-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Permissions.svg");
+}
+
+/* Server: Remove Server Icon */
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Delete Server" i]::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Delete Channel" i]::before,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="delete-tab" i]::before {
+	background: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Delete.svg");
+	filter: invert(70%) sepia(100%) saturate(1000%) hue-rotate(-30deg);
+}
+
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Delete Server" i] .tabBarItemContainer_d74773 svg,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-label="Delete Channel" i] .tabBarItemContainer_d74773 svg,
+.sidebarRegionScroller__1fa7e .item__48dda[aria-controls="delete-tab" i] .tabBarItemContainer_d74773 svg {
+	display: none;
+}
+
+/************************************** Profile Connections Icons ************************************/
+
+/* Connections Header */
+.connectContainer__8050b {
+	background-color: #141414;
+	padding: 14px 0px 12px 14px;
+}
+.connectContainer__8050b .connectionsContainer_ec9a62 .inner__51a43 {
+	width: 50px;
+	height: 50px;
+	background-size: 42px 42px;
+}
+.connectContainer__8050b .connectionsContainer_ec9a62 .accountButtonInner__80e3a {
+	background-color: #191919;
+	margin-right: 5px;
+}
+.connectContainer__8050b .connectionsContainer_ec9a62 .accountButtonInner__80e3a:hover {
+	background-color: #292929;
+}
+/* Connections List */
+.connectionList__7b310 {
+	grid-gap: 4px;
+}
+.connectionList__7b310 .connectionOptionsWrapper_abe849 {
+	padding: 10px 10px 0;
+}
+.connectionList__7b310 .metadataContainer__7b316 {
+	background-color: #151515;
+	border-radius: 0px;
+	margin: 0px;
+}
+.connectionList__7b310 .connectionHeader__3c82d {
+	background-color: #141414;
+	padding: 10px 16px;
+}
+.connectionList__7b310 .connectionHeader__3c82d .connectionAccountValue__2ab34 {
+	font-size: 16px;
+}
+.connectionList__7b310 .connectionHeader__3c82d .connectionIcon__1428c {
+	transform: scale(1.1);
+}
+.connectionList__7b310 .connectionHeader__3c82d .connectionIcon__1428c:hover,
+.connectionList__7b310 .connectionHeader__3c82d .connectionDelete__988b5:hover {
+	transform: scale(1.25);
+	transition: 100ms;
+}
+/* Connections Icons */
+.connectedAccountIcon__6bc30 {
+	transform: scale(1.3);
+}
+
+/* Reddit */
+.connectedAccountIcon__6bc30[src="/assets/cc912bf56af0fd3bc301.svg"] {
+	filter: grayscale(1) invert(0.96) brightness(2);
+}
+/* Youtube */
+.connectedAccountIcon__6bc30[src="/assets/d8deaf4c4cbec4b8f9d6.svg"] {
+	filter: grayscale(1) invert(0.96) brightness(2);
+}
+/* Twitter */
+.connectedAccountIcon__6bc30[src="/assets/f47485602365c946fa52.svg"] {
+	filter: grayscale(1) brightness(2);
+}
+/* Battle.net */
+.connectedAccountIcon__6bc30[src="/assets/27b152e2ddb3acb76a92.svg"] {
+	filter: grayscale(1) brightness(2);
+	transform: scale(1.25);
+}
+/* Spotify */
+.connectedAccountIcon__6bc30[src="/assets/7231645d01e0b14f58cc.svg"] {
+	filter: grayscale(1) brightness(2);
+}
+.connectedAccountIcon__6bc30[src="/assets/7231645d01e0b14f58cc.svg"]+.connectedAccountNameContainer__48b99 {
+	text-transform: capitalize;
+}
+/* Twitch */
+.connectedAccountIcon__6bc30[src="/assets/7ccb5f56c32c63e01c04.svg"] {
+	filter: grayscale(1) invert(0.96) brightness(2);
+}
+.connectedAccountIcon__6bc30[src="/assets/7ccb5f56c32c63e01c04.svg"]+.connectedAccountNameContainer__48b99 {
+	text-transform: capitalize;
+}
+/* Facebook */
+.connectedAccountIcon__6bc30[src="/assets/32045743cb7670855ae726743c949e0c.svg"] {
+	filter: grayscale(1) invert(0.96) brightness(2);
+}
+/* League Of Legends */
+.connectedAccountIcon__6bc30[src="/assets/4d004ea91b2a1cd534cf.svg"] {
+	filter: grayscale(1) brightness(2);
+}
+/* Riot Games */
+.connectedAccountIcon__6bc30[src="/assets/d521f9c27b53f7a779e6.svg"] {
+	filter: grayscale(1) brightness(4);
+}
+/* Epic Games */
+.connectedAccountIcon__6bc30[src="/assets/f22d0f157e5b64710577.svg"] {
+	transform: scale(1.6) translate(0.5px);
+}
+/* Paypal */
+.connectedAccountIcon__6bc30[src="/assets/cd538a7ff4cdd66dc377863e809c33bb.svg"] {
+	filter: grayscale(1) contrast(1.46);
+	transform: scale(1.35);
+}
+/* Instagram */
+.connectedAccountIcon__6bc30[src="/assets/ec048b4bbcf47d45c7f6.svg"] {
+	filter: grayscale(1) brightness(5);
+	transform: scale(1.25);
+}
+/* Ebay */
+.connectedAccountIcon__6bc30[src="/assets/2b138cd479a1b7e0854c0a5bcb5d3cb4.svg"] {
+	transform: scale(1.4);
+}
+
+
+/* Twitter: Inverted */
+.connectedAccountIcon__6bc30[src="/assets/cc52988849f86e1c85f5.svg"] {
+	filter: invert(1);
+}
+/* Xbox: Inverted */
+.connectedAccountIcon__6bc30[src="/assets/fe9652309ef98c6f358e.svg"] {
+	filter: grayscale(1) invert(0.96) brightness(2);
+}
+/* Playstation: Inverted */
+.connectedAccountIcon__6bc30[src="/assets/1b0b60300e4f234337be.svg"] {
+	filter: grayscale(1) invert(0.96) brightness(2);
+}
+/* TikTok: Inverted */
+.connectedAccountIcon__6bc30[src="/assets/715a8b0f690da5b34fbb.svg"] {
+	filter: grayscale(1) invert(1);
+}
+/* Github: Inverted */
+.connectedAccountIcon__6bc30[src="/assets/5617849b51454655bcf1.svg"] {
+	filter: invert(1);
+}
+/* Steam: Inverted */
+.connectedAccountIcon__6bc30[src="/assets/d46756f782e19355e483.svg"] {
+	filter: invert(1);
+}
+/* Riot Games: Inverted */
+.connectedAccountIcon__6bc30[src="/assets/d521f9c27b53f7a779e6.svg"] {
+	filter: grayscale(1) invert(1) brightness(2);
+}
+/* Epic Games: Inverted */
+.connectedAccountIcon__6bc30[src="/assets/ffa3415a151587879c5537015fa59521.svg"] {
+	transform: scale(1.6) translate(0.5px);
+	filter: invert(1) brightness(2);
+}
+
+/**************************************** Profile Badges Icons ***************************************/
+
+/* Bravery */
+.container__5bda1 img[src="https://cdn.discordapp.com/badge-icons/8a88d63823d8a71cd5e390baa45efa02.png"] {
+	content: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Discord/Hypesquad.svg") ;
+	filter: hue-rotate(208deg);
+	transform: scale(0.85);
+}
+/* Brilliance */
+.container__5bda1 img[src="https://cdn.discordapp.com/badge-icons/011940fd013da3f7fb926e4a1cd2e618.png"] {
+	content: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Discord/Hypesquad.svg");
+	filter: hue-rotate(-40deg);
+	transform: scale(0.85);
+}
+/* Balance */
+.container__5bda1 img[src="https://cdn.discordapp.com/badge-icons/3aa41de486fa12454c3761e8e223442e.png"] {
+	content: url("https://raw.githubusercontent.com/KillYoy/DiscordNight/master/Icons/SVG/Discord/Hypesquad.svg");
+	filter: hue-rotate(120deg);
+	transform: scale(0.85);
+}
+/* Staff & Partner */
+.container__5bda1 img[src="https://cdn.discordapp.com/badge-icons/5e74e9b61934fc1f67c65515d1f7e60d.png"],
+.container__5bda1 img[src="https://cdn.discordapp.com/badge-icons/3f9748e53446a137a052f3454e2de41e.png"] {
+	filter: hue-rotate(-12deg) brightness(1.1);
+}
+/* Active Developer */
+.container__5bda1 img[src="https://cdn.discordapp.com/badge-icons/6bdc42827a38498929a4920da12695d9.png"] {
+	transform: scale(1.1);
+}
+
+/* Badge Shadowing */
+.container__5bda1 .anchor_c8ddc0 {
+	filter: drop-shadow(-1px 1px 1px rgba(0,0,0,0.5));
+}
+/* Badge Hover Zoom */
+.container__5bda1 .anchor_c8ddc0:hover {
+	transform: scale(1.1);
+}
